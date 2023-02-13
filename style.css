@@ -25,6 +25,9 @@ body{
 .container .input-box{
   position: relative;
 }
+.title {
+  text-align: center;
+}
 .input-box .show_hide{
   position: absolute;
   right: 16px;
@@ -63,4 +66,7 @@ body{
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1px;
+}
+.logo {
+  text-align: center;
 }
