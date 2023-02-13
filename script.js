@@ -27,19 +27,19 @@ input.addEventListener("keyup", ()=>{
 
   let val = input.value;
   if(val.match(alphabet) || val.match(numbers) || val.match(scharacters)){
-    text.textContent = "Password is weak";
+    text.textContent = "Գաղտնաբառը թույլ է";
     input.style.borderColor = "#FF6333";
     showHide.style.color = "#FF6333";
     iconText.style.color = "#FF6333";
   }
   if(val.match(alphabet) && val.match(numbers) && val.length >= 6){
-    text.textContent = "Password is medium";
+    text.textContent = "Միջին ամրության գաղտնաբառ է";
     input.style.borderColor = "#cc8500";
     showHide.style.color = "#cc8500";
     iconText.style.color = "#cc8500";
   }
   if(val.match(alphabet) && val.match(numbers) && val.match(scharacters) && val.length >= 8){
-    text.textContent = "Password is strong";
+    text.textContent = "Գաղտնաբառն ուժեղ է";
     input.style.borderColor = "#22C32A";
     showHide.style.color = "#22C32A";
     iconText.style.color = "#22C32A";
